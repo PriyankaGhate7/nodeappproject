@@ -6,9 +6,4 @@ var app = express();
 app.get(‘/hello’, function (req, res) {
 res.send(‘hello world’);
 });
-//listen to port 80 by default
-app.listen(process.env.PORT || 80);
- 
-module.exports = app;
- 
-execute shell- npm install
+
